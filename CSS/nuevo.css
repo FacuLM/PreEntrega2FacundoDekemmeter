@@ -307,7 +307,7 @@ body
     margin: 0;
 
 }
-    @media screen and (max-width: 320px)
+    @media screen and (min-width: 380px) and (max-width:480px )
     { 
         /* index */
         .text-center img
@@ -350,11 +350,11 @@ body
         }
         .col-4 h2
         {
-            font-size: 2rem;
+            font-size: 2.2rem;
         }
-        .modelosChevrolet
+        .modelosChevrolet, .modelosFord
         {
-            font-size: 40px;
+            font-size: 50px;
         }
         /*financiamiento */
         .boton-consulta
