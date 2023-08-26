@@ -120,7 +120,7 @@ body
     font-size: 16px;
 
 }
-.input-boton
+.input-boton-autos
 {
     padding: 15px 30px;
     border: none;
@@ -131,7 +131,7 @@ body
     font-size: 14px;
     margin-top: 30px;
 }
-.input-submit:hover
+.input-boton-autos:hover
 {
     background-color: rebeccapurple;
 }
