@@ -324,18 +324,13 @@ body
         {
             font-size: 30px;
         }
-        .navbar-toggler, .nav-item, .copiright, .text-center h2, .main-div-h2
+        .navbar-toggler, .copiright, .text-center h2, .main-div-h2,.body-p, .divDelTexto, #main-contacto
         {
-            font-size: 15px;
+            font-size: 16px;
         }
-        .body-p
+        .nav-item
         {
-            font-size: 10px;
-        }
-        /* contactos */
-        #main-contacto, .divDelTexto, .texto-sn
-        {
-            font-size: 13px;
+            font-size: 20px;
         }
         /* modelos*/
         .row
@@ -344,7 +339,7 @@ body
             flex-direction: column;
             align-items: center;
         }
-        .col-6, .col-4, #reciclaje .row img
+        .col-6, .col-4, #reciclaje .row img, #fotoConcesionaria
         {
             width: 100%;
         }
