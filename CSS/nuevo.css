@@ -1,0 +1,386 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+.navbar-nav
+{
+    justify-content: space-around;
+}
+.navbar
+{
+    background-color:#960200 ;
+    text-shadow: 0 0 30px black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navbar-brand
+{   
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    text-shadow: 0 0 30px black;
+}
+.nav-item :hover
+{   
+    background-color: rgb(230, 232, 230);
+    border-radius: 3px;
+}
+/* CONTENIDO INDEX */
+body
+{
+    background-color: #E6DBD0;
+}
+.body-p
+{
+    text-align: center;
+    background-color:rgb(230, 232, 230);
+    font-family: 'REM', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bold;
+}
+.main-div
+{
+    padding: 0.3rem;
+    background-color: grey;
+    border-bottom: 3px solid black;
+}
+.main-div-h2
+{
+    font-size: 20px ;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.text-center img
+{
+    width: 40%;
+    padding: 5px;
+    margin: 10px 10px;
+    border: 2px inset black;
+    border-radius: 5px;
+}
+/* contactos */
+#main-contacto, .texto-sn
+{
+    background-color: #46494C;
+    color: #FDFFFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23PX;
+    text-align: center;
+}
+.imagencontacto, .div-comentario, .div-delform
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imagencontacto img
+{
+    width: 90%;
+}
+.formulario
+{
+    margin: 10px;
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.ul-formulario-div, .ul-formulario
+{
+    padding: 0;
+    margin: 0;
+}
+.ul-formulario h2
+{
+    text-align: center;
+}
+.input
+{
+    height: 100%;
+    width: 100%;
+    border: 1px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.label
+{
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    color: purple;
+    font-size: 16px;
+
+}
+.input-boton
+{
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.input-submit:hover
+{
+    background-color: rebeccapurple;
+}
+.ul-furmulario h2
+{
+    text-align: center ;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+/* modelos */
+.modelosChevrolet
+{
+    text-align: center;
+    color: #FFD449;
+    font-family: 'Bebas Neue';
+    font-size: 4rem;
+    text-shadow: 0 0 30px #FFC43D;
+    background-color: black;
+}
+.modelosFord
+{
+    text-align: center;
+    color: #1C77C3;
+    font-family: 'Bebas Neue';
+    font-size: 4rem;
+    text-shadow: 0 0 30px #40BCD8;
+    background-color: black;
+}
+.row
+{
+    justify-content: center;
+}
+.col-6 img
+{
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    width: 100%
+}
+.col-4
+{
+    padding: 3px;
+    margin: 5px;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.col-4 h2
+{
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* financiamiento*/
+.imagenfinan img, .articleConImg
+{
+    width: 100%;
+}
+.article-financiamiento
+{
+    background-color: #EAEAEA;
+}
+.article-financiamiento-div
+{
+    margin: 10px;
+    color: grey;
+    background-color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.article-financiamiento-div h2
+{
+    margin: 0;
+    color: grey;
+    font-size: 60px;
+}
+.col p
+{
+    font-family: 'REM', sans-serif;
+    margin: 10px;
+}
+.div-del-medio
+{
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    margin: 0;
+    color: grey;
+    background-color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+}
+.div-del-medio h2
+{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.divDelTexto
+{
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.boton-consulta
+{
+    width: 25%;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#divBotonConsulta
+{
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* footer*/
+.footer
+{
+    width: 100%;
+    background-color: grey ;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    "filauno filados"
+    "filatres filatres";
+}
+.footer-img-div
+{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-img-div p
+{
+    grid-area: filados;
+    margin-top: 50px;
+    padding: 10px;
+    color: black;
+}
+.footer-img-div a
+{
+    color: black;
+    text-decoration: none;
+}
+.footer-img
+{
+    grid-area: filauno;
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+}
+.footer-img-div p :hover
+{
+    color: white;
+}
+.copiright
+{   
+    grid-area: filatres;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+
+}
+    @media screen and (max-width: 320px)
+    { 
+        /* index */
+        .text-center img
+        {
+            width: 90%;
+            margin:0 ;
+            margin-top: 10px;
+        }
+        .text-center, .text-center h2, .main-div, .main-div-h2, .navbar-brand, .footer-img-div p, .copiright
+        {
+            margin: 0;
+        }
+        .navbar-brand
+        {
+            font-size: 30px;
+        }
+        .navbar-toggler, .nav-item, .copiright, .text-center h2, .main-div-h2
+        {
+            font-size: 15px;
+        }
+        .body-p
+        {
+            font-size: 10px;
+        }
+        /* contactos */
+        #main-contacto, .divDelTexto, .texto-sn
+        {
+            font-size: 13px;
+        }
+        /* modelos*/
+        .row
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .col-6, .col-4, #reciclaje .row img
+        {
+            width: 100%;
+        }
+        .col-4 h2
+        {
+            font-size: 2rem;
+        }
+        .modelosChevrolet
+        {
+            font-size: 40px;
+        }
+        /*financiamiento */
+        .boton-consulta
+        {
+            width: 50%;
+        }
+        /* footer */
+        .footer
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-img
+        {
+            width: 70px ;
+        }
+        .footer-img-div
+        {
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .footer-img-div p
+        {
+            font-size: 13px;
+        }
+        
+    }
