@@ -85,18 +85,17 @@ body
 }
 .formulario
 {
+    
     margin: 10px;
     background-color: white;
     width: 400px;
     border-radius: 8px;
-    padding: 20px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 .ul-formulario-div, .ul-formulario
 {
     padding: 10px;
     margin: 0;
-    font-size: 25px;
 }
 .ul-formulario h2
 {
@@ -106,10 +105,10 @@ body
 .input
 {
     padding: 5px;
-    height: 100%;
     width: 100%;
     border: 1px solid purple;
     border-radius: 5px;
+    font-size: 20px;
 }
 .label
 {
