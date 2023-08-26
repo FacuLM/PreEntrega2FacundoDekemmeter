@@ -25,6 +25,7 @@
 {   
     background-color: rgb(230, 232, 230);
     border-radius: 3px;
+    cursor: pointer;
 }
 /* CONTENIDO INDEX */
 body
@@ -93,20 +94,22 @@ body
 }
 .ul-formulario-div, .ul-formulario
 {
-    padding: 0;
+    padding: 10px;
     margin: 0;
+    font-size: 25px;
 }
 .ul-formulario h2
 {
+    font-size: 2rem;
     text-align: center;
 }
 .input
 {
+    padding: 5px;
     height: 100%;
     width: 100%;
     border: 1px solid purple;
     border-radius: 5px;
-    font-size: 16px;
 }
 .label
 {
